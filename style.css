@@ -212,10 +212,11 @@
 }
 .home-section{
   position: relative;
-  background: #E4E9F7; 
+  background: #131312; 
   /* #E4E9F7; fondo mas claro */
   height: 100vh;
-  width: 90%;
+  left: 260px;
+  width: calc(100% - 260px);
   transition: all 0.5s ease;
 }
 .sidebar.close ~ .home-section{
@@ -246,7 +247,7 @@
 .main-content{
     font-size: 26px;
     font-weight: 600;
-  
+    width: 100%;
 }
 
 .header{
@@ -262,7 +263,7 @@
 .info1{
     text-align: center;
     background-color:black;
-    color:yellow;
+    color:rgb(252, 198 ,73);
     height: 100%;
     width: 100%;
     padding: 5%;
