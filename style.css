@@ -212,12 +212,10 @@
 }
 .home-section{
   position: relative;
-  background: #131312; 
+  background: #E4E9F7; 
   /* #E4E9F7; fondo mas claro */
   height: 100vh;
-  left: 260px;
   width: 90%;
-  margin-left: 10%;
   transition: all 0.5s ease;
 }
 .sidebar.close ~ .home-section{
