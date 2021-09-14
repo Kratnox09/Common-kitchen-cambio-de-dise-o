@@ -7,9 +7,6 @@
   font-family: 'Poppins', sans-serif;
 }
 
-body{
-  background-color: azure;
-}
 .sidebar{
   position: fixed;
   top: 0;
@@ -297,7 +294,8 @@ body{
     display: flex;
     font-size: 11;
     border-top: 1px solid rgb(197, 197,197);
-    background-color: azure;
+    background-color:rgb(255, 255, 255);
+    margin:0% !important;
 }
 
 .imagenfooter{
